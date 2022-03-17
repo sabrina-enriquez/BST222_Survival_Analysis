@@ -1,0 +1,49 @@
+"Model Information",
+"Data Set","P2.SIMRED2"
+"Dependent Variable","time"
+"Censoring Variable","censor"
+"Censoring Value(s)",1
+"Ties Handling","BRESLOW"
+
+"Number of Observations Read",765,"Number of Observations Used",765
+
+"Class Level Information",,,,
+"Class","Value","Design Variables",,
+"Therapy","(S): Surgery Only",1,0,0
+,"(RS): Radiotherapy and Surgery",0,1,0
+,"(R): Radiotherapy Only",0,0,1
+,"(NRS): Neither R nor S",0,0,0
+
+"Summary of the Number of Event and Censored Values",,,
+"Total","Event","Censored","PercentCensored"
+765,595,170,22.22
+
+"Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","WithoutCovariates","WithCovariates"
+"-2 LOG L",6854.700,6783.837
+"AIC",6854.700,6789.837
+"SBC",6854.700,6803.003
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",70.8627,3,"<.0001"
+"Score",56.4347,3,"<.0001"
+"Wald",50.3275,3,"<.0001"
+
+"Type 3 Tests",,,
+"Effect","DF","Wald Chi-Square","Pr > ChiSq"
+"Therapy",3,50.3275,"<.0001"
+
+"Analysis of Maximum Likelihood Estimates",,,,,,,,
+"Parameter","","DF","ParameterEstimate","StandardError","Chi-Square","Pr > ChiSq","HazardRatio","Label"
+"Therapy","(S): Surgery Only",1,-1.17356,0.21734,29.1574,"<.0001",0.309,"Therapy (S): Surgery Only"
+"Therapy","(RS): Radiotherapy and Surgery",1,0.07599,0.14314,0.2818,0.5955,1.079,"Therapy (RS): Radiotherapy and Surgery"
+"Therapy","(R): Radiotherapy Only",1,-0.10991,0.18860,0.3396,0.5601,0.896,"Therapy (R): Radiotherapy Only"
+
+"Reference Set of Covariates for Plotting"
+"Therapy"
+"(NRS): Neith"
+

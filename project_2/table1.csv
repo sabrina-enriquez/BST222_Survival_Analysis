@@ -1,0 +1,26 @@
+"Gender","Frequency","Percent","Cumulative Frequency","Cumulative  Percent"
+"Female",290,37.91,290,37.91
+"Male",475,62.09,765,100.00
+
+"Marital","Frequency","Percent","Cumulative Frequency","Cumulative  Percent"
+"Married",452,59.08,452,59.08
+"Never Married",119,15.56,571,74.64
+"Widowed",76,9.93,647,84.58
+"Divorced",51,6.67,698,91.24
+"Other",67,8.76,765,100.00
+
+"Race","Frequency","Percent","Cumulative Frequency","Cumulative  Percent"
+"White",652,85.23,652,85.23
+"Asian/ Pacific Islander",73,9.54,725,94.77
+"Black",25,3.27,750,98.04
+"Other",15,1.96,765,100.00
+
+"TumorLocation","Frequency","Percent","Cumulative Frequency","Cumulative  Percent"
+"Mobile spine",322,42.09,322,42.09
+"Sacrum",443,57.91,765,100.00
+
+"Pathology","Frequency","Percent","Cumulative Frequency","Cumulative  Percent"
+"Classic",740,96.73,740,96.73
+"Chondroid",18,2.35,758,99.08
+"Dedifferentiated",7,0.92,765,100.00
+
